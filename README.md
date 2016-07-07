@@ -14,7 +14,9 @@ docker rm -f container_name
 ```
 
 # start a postgres server
+```
 docker run -p 5432:5432 --name postgres-db -d postgres:latest
+```
 
 Explanation:
 ------
